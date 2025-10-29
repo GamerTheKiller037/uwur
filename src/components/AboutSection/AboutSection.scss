@@ -1,0 +1,126 @@
+.about {
+  position: relative;
+  padding: 2rem 0;
+
+  @media screen and (min-width: 1336px) {
+    background-image: url("/src/assets/img/body-bg.png");
+    background-size: cover;
+    background-position: center;
+    padding: 7rem 0 10rem 0;
+  }
+
+  h3 {
+    color: #0b2148;
+    font-size: 2rem;
+
+    @media screen and (min-width: 1336px) {
+      font-size: 2.8rem;
+      width: 95%;
+    }
+  }
+
+  h6 {
+    color: #48a9a6;
+  }
+
+  p {
+    margin: 1.3rem 0;
+    text-align: justify;
+
+    @media screen and (min-width: 1336px) {
+      width: 90%;
+    }
+  }
+
+  &__perks {
+    @media screen and (min-width: 1336px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1rem;
+    }
+
+    p {
+      margin: 1rem 0;
+      font-weight: 600;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+
+      @media screen and (min-width: 1336px) {
+        font-size: 1rem;
+        margin: 0;
+      }
+
+      img {
+        margin-right: 10px;
+        width: 20px;
+      }
+    }
+  }
+
+  .about-img {
+    margin: 0 auto 2rem auto;
+
+    @media screen and (min-width: 1336px) {
+      margin-top: -3rem;
+      height: min-content;
+    }
+  }
+
+  &__cta {
+    a {
+      background-color: #ffc928;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0b2148;
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 0.4rem 1rem;
+      margin-top: 2rem;
+      font-weight: 600;
+      font-size: 1.3rem;
+      transition: background-color 0.3s ease;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      &:hover {
+        background-color: #ffb700;
+      }
+
+      @media screen and (min-width: 1336px) {
+        width: max-content;
+      }
+    }
+  }
+
+  &__stats {
+    background-color: #0b2148;
+    color: #fff;
+    padding: 1rem;
+
+    @media screen and (min-width: 1336px) {
+      padding: 1rem;
+      position: absolute;
+      bottom: 4rem;
+      right: 10.76rem;
+      width: 19.8%;
+    }
+
+    h3 {
+      color: #fff !important;
+      font-size: 1.4rem;
+    }
+
+    h4 {
+      font-size: 3rem;
+    }
+
+    p {
+      margin: 1rem 0;
+    }
+  }
+}

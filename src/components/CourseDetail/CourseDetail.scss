@@ -1,0 +1,99 @@
+.masters {
+  padding: 1rem 0;
+  @media screen and (min-width: 1336px) {
+    padding: 2rem 0;
+  }
+
+  &__content {
+    h3 {
+      color: #741816;
+      font-weight: 600;
+      @media screen and (min-width: 1336px) {
+        font-size: 2rem;
+      }
+    }
+
+    h5 {
+      font-weight: 600;
+    }
+
+    p {
+      text-align: justify;
+      margin: 1rem 0;
+      @media screen and (min-width: 1336px) {
+        width: 95%;
+      }
+
+      &.blue {
+        font-weight: 600;
+        font-synthesis: 1.1rem;
+        color: #0b2148;
+      }
+    }
+
+    &__files {
+      a {
+        background: #fff;
+        display: block;
+        padding: 0.8rem;
+        border: 1px solid #ebebeb;
+        margin-top: 1rem;
+        color: #00467d;
+        font-size: 1.1rem;
+        text-decoration: none;
+        @media screen and (min-width: 1336px) {
+          width: 95%;
+        }
+
+        img {
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  &__details {
+    background-color: #fff;
+    box-shadow: 0 2px 4px 0 rgba(191, 191, 191, 0.5);
+    padding: 1rem;
+    margin-top: 1rem;
+    @media screen and (min-width: 992px) {
+      margin-top: 0;
+      position: sticky;
+      top: 10px;
+      padding: 1.8rem;
+    }
+
+    h5 {
+      margin-top: 1.4rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin-top: 0.6rem;
+      font-weight: 500;
+      font-size: 1.1rem;
+
+      img {
+        margin-right: 10px;
+      }
+    }
+
+    a {
+      background-color: #ffc928;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0b2148;
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 0.4rem 1rem;
+      margin-top: 2rem;
+      font-weight: 600;
+      font-size: 1.1rem;
+      @media screen and (min-width: 1336px) {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.missionVision {
+  position: relative;
+  padding: 2rem 0;
+  @media screen and (min-width: 992px) {
+    padding: 3.3rem;
+  }
+
+  &::before {
+    content: "";
+    background-color: #741816;
+    background-image: url("/src/assets/img/about-banner-bg.png");
+    background-repeat: no-repeat;
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    @media screen and (min-width: 992px) {
+      height: 200px;
+    }
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    @media screen and (min-width: 992px) {
+      font-size: 2.2rem;
+    }
+  }
+
+  &__cards {
+    margin-top: 2rem;
+    @media screen and (min-width: 992px) {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 4rem;
+    }
+
+    .mission,
+    .vision {
+      background-color: #0b2148;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+      @media screen and (min-width: 992px) {
+        padding: 2.2rem;
+      }
+
+      h4 {
+        text-transform: uppercase;
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+        @media screen and (min-width: 992px) {
+          font-size: 1.8rem;
+        }
+      }
+
+      p {
+        font-size: 1.1rem;
+        @media screen and (min-width: 992px) {
+          text-align: justify;
+        }
+      }
+    }
+
+    .vision {
+      margin-top: 3rem;
+      @media screen and (min-width: 992px) {
+        margin-top: 0;
+      }
+    }
+  }
+}

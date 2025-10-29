@@ -1,0 +1,78 @@
+.customNavbar {
+  .navbar-brand img {
+    height: 59px;
+  }
+
+  .container-fluid {
+    @media screen and (min-width: 1336px) {
+      max-width: 95%;
+    }
+    @media screen and (min-width: 1900px) {
+      max-width: 90%;
+    }
+  }
+
+  .navbar-nav .nav-item {
+    font-weight: 600;
+    margin-right: 0.5rem;
+    @media screen and (min-width: 1336px) {
+      margin-right: 1rem;
+    }
+  }
+
+  .navbar-nav .contact {
+    background-color: #ffc928;
+    position: relative;
+    @media screen and (min-width: 400px) and (max-width: 991px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 50px;
+    }
+    @media screen and (min-width: 1336px) {
+      margin-left: 1.5rem;
+    }
+    &::before {
+      @media screen and (min-width: 992px) {
+        content: "";
+        background-color: #ffc928;
+        position: absolute;
+        top: -1.4rem;
+        left: -0.7rem;
+        height: 85px;
+        width: 100px;
+        z-index: 1;
+        left: -0.4rem;
+        width: 95px;
+      }
+      @media screen and (min-width: 1336px) {
+        top: -1.4rem;
+        left: -1.5rem;
+        width: 130px;
+        height: 85px;
+      }
+    }
+    a {
+      position: relative;
+      z-index: 3;
+      color: #000;
+      @media screen and (min-width: 400px) and (max-width: 991px) {
+        text-align: center;
+      }
+    }
+  }
+
+  &__social {
+    @media screen and (min-width: 992px) {
+      a img {
+        height: 35px;
+      }
+    }
+    @media screen and (min-width: 1336px) {
+      margin-left: 1.5rem;
+      a img {
+        height: auto;
+      }
+    }
+  }
+}

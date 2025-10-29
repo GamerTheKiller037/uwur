@@ -1,0 +1,50 @@
+.heroSecondary {
+  background-image: url("/src/assets/img/seconday-header-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 1.5rem 0;
+
+  @media screen and (min-width: 1336px) {
+    padding: 3rem 0;
+  }
+
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+
+    @media screen and (min-width: 1336px) {
+      max-width: 95%;
+    }
+
+    @media screen and (min-width: 1900px) {
+      max-width: 90%;
+    }
+  }
+
+  &--blue {
+    background-image: url("/src/assets/img/hero-background--blue.jpg");
+
+    p {
+      color: #48a9a6;
+    }
+  }
+
+  h2 {
+    font-weight: 800;
+    margin: 0;
+    font-size: 1.8rem;
+
+    @media screen and (min-width: 992px) {
+      font-size: 2.5rem;
+    }
+  }
+
+  p {
+    color: #48a9a6;
+    margin: 0;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+}

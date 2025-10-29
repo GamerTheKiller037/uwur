@@ -1,0 +1,62 @@
+.announcementsCarousel {
+  background-color: #0b2148;
+  color: #fff;
+  text-align: center;
+  padding: 0.6rem;
+  position: relative;
+
+  .carousel {
+    min-height: 40px;
+  }
+
+  .carousel-content {
+    padding: 0 3rem;
+  }
+
+  .carousel-content h6 {
+    font-size: 0.85rem;
+    width: 80%;
+    margin: 0 auto;
+    @media screen and (min-width: 1336px) {
+      font-size: 1rem;
+      width: 100%;
+    }
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 40px;
+    opacity: 1 !important;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-image: none !important;
+    width: 20px;
+    height: 20px;
+  }
+
+  .carousel-control-prev-icon::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("/src/assets/img/left-arrow--white.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .carousel-control-next-icon::before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-image: url("/src/assets/img/right-arrow--white.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .carousel-indicators {
+    display: none;
+  }
+}

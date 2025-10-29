@@ -1,0 +1,70 @@
+.aboutHistory {
+  padding: 1rem 0;
+  @media screen and (min-width: 1336px) {
+    padding: 2rem 0;
+  }
+
+  h6 {
+    color: #48a9a6;
+  }
+
+  h3 {
+    color: #0b2148;
+    font-size: 1.7rem;
+    margin: 0.8rem 0 0.5rem 0;
+    font-weight: 600;
+    @media screen and (min-width: 1336px) {
+      font-size: 2rem;
+    }
+  }
+
+  p {
+    text-align: justify;
+    margin-top: 1rem;
+    @media screen and (min-width: 992px) {
+      width: 95%;
+    }
+
+    &.red {
+      margin-top: 0;
+      background-color: #741816;
+      color: #fff;
+      padding: 0.5rem 0.9rem;
+      width: 100%;
+    }
+  }
+
+  &__cta {
+    a {
+      background-color: #ffc928;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #0b2148;
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 0.4rem 1rem;
+      margin-top: 2rem;
+      font-weight: 600;
+      font-size: 1.3rem;
+      transition: background-color 0.3s ease;
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      &:hover {
+        background-color: #ffb700;
+      }
+
+      @media screen and (min-width: 1336px) {
+        width: max-content;
+      }
+    }
+  }
+
+  img {
+    margin-bottom: 1rem;
+  }
+}

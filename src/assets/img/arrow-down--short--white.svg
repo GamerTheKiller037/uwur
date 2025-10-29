@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg   version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Path Copy</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-1378.000000, -1064.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M1391.21313,1060.43165 L1382.82542,1068.81936 C1382.00762,1069.63717 1382.00762,1070.95823 1382.82542,1071.77603 L1391.21313,1080.16374 C1393.16327,1082.11388 1396.14091,1079.15722 1394.1698,1077.20707 L1387.27091,1070.30818 L1394.1698,1063.40929 C1396.14091,1061.43818 1393.16327,1058.48151 1391.21313,1060.45262 L1391.21313,1060.43165 Z" id="Path-Copy" transform="translate(1388.514652, 1070.302584) rotate(-90.000000) translate(-1388.514652, -1070.302584) "></path>
+        </g>
+    </g>
+</svg>

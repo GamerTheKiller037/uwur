@@ -1,0 +1,82 @@
+.publications {
+  padding: 1rem 0;
+
+  @media screen and (min-width: 1336px) {
+    padding: 2rem 0;
+  }
+
+  &__item {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 992px) {
+      flex-direction: row;
+    }
+
+    &:not(:first-child) {
+      margin-top: 1rem;
+
+      @media screen and (min-width: 1336px) {
+        margin-top: 1.5rem;
+      }
+    }
+
+    img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      object-fit: cover;
+
+      @media screen and (min-width: 992px) {
+        width: 300px;
+        height: 250px;
+      }
+    }
+
+    > div {
+      padding: 1rem;
+
+      @media screen and (min-width: 1336px) {
+        padding: 2rem;
+        flex: 1;
+      }
+
+      h3 {
+        text-align: justify;
+        color: #0b2148;
+        font-weight: 600;
+      }
+
+      p {
+        text-align: justify;
+        margin: 0.7rem 0;
+
+        @media screen and (min-width: 1336px) {
+          margin: 1.5rem 0;
+          font-size: 1.1rem;
+        }
+      }
+
+      a {
+        color: #00467d;
+        font-size: 1.2rem;
+        font-weight: bolder;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        margin-top: 1rem;
+
+        img {
+          margin-right: 10px;
+          max-width: 20px;
+          width: 100%;
+        }
+
+        &:hover {
+          color: #003d66;
+        }
+      }
+    }
+  }
+}

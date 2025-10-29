@@ -1,0 +1,48 @@
+.values {
+padding: 1rem 0;
+
+  @media screen and (min-width: 1336px) {
+    padding: 2rem 0;
+  }
+
+  h3 {
+    color: #00467d;
+    font-weight: 700;
+    margin-bottom: 2rem;
+
+    @media screen and (min-width: 1336px) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+
+    @media screen and (min-width: 992px) {
+      margin-top: 0;
+      grid-template-columns: repeat(6, 1fr);
+    }
+
+    &__item {
+      text-align: center;
+
+      img {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 1rem;
+      }
+
+      h5 {
+        font-size: 1rem;
+        font-weight: 700;
+
+        @media screen and (min-width: 992px) {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}

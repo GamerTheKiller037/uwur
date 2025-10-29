@@ -1,0 +1,70 @@
+.services {
+  &__header {
+    background-color: #741816;
+    background-image: url("/src/assets/img/services-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+    padding: 2rem 0 3.5rem 0;
+
+    @media screen and (min-width: 1336px) {
+      height: 230px;
+      padding: 2rem 0;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+
+      @media screen and (min-width: 992px) {
+        font-size: 3rem;
+      }
+    }
+
+    p {
+      text-align: justify;
+      opacity: 0.7;
+      margin-top: 1rem;
+
+      @media screen and (min-width: 992px) {
+        font-size: 1.1rem;
+      }
+    }
+  }
+
+  &__cards {
+    margin-top: -1.5rem;
+
+    @media screen and (min-width: 1336px) {
+      margin-top: -2.5rem;
+    }
+  }
+
+  &__card {
+    background-color: #fff;
+    height: 100%;
+    padding: 1.2rem 1rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+
+    @media screen and (min-width: 992px) {
+      padding: 1.3rem;
+    }
+
+    img {
+      width: 50px;
+      height: 50px;
+    }
+
+    h5 {
+      margin: 0.6rem 0;
+      color: #0b2148;
+      font-weight: 700;
+    }
+
+    p {
+      text-align: justify;
+      margin: 0;
+    }
+  }
+}

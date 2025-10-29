@@ -1,0 +1,10 @@
+.about__banner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 190px;
+
+  @media screen and (min-width: 1336px) {
+    height: 452px;
+  }
+}
