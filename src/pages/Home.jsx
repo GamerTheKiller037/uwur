@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import React, { useEffect, useRef } from "react";
 import Header from "../components/Header/Header";
 import HeroMain from "../components/HeroMain/HeroMain";
@@ -9,6 +8,7 @@ import UsefulLinks from "../components/UsefulLinks/UsefulLinks";
 import VideoBanner from "../components/VideoBanner/VideoBanner";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   const animationsInitialized = useRef(false);
@@ -250,6 +250,7 @@ const Home = () => {
         <ServicesSection />
         <UsefulLinks />
         <VideoBanner />
+        <Footer />
       </main>
     </>
   );

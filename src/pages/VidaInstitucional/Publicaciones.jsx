@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import HeroSecondary from "../../components/HeroSecondary/HeroSecondary";
 import PublicationsList from "../../components/PublicationsList/PublicationsList";
+import Footer from "../../components/Footer/Footer";
 
 const Publicaciones = () => {
   return (
@@ -10,6 +11,7 @@ const Publicaciones = () => {
       <main>
         <HeroSecondary title="Publicaciones" />
         <PublicationsList />
+        <Footer />
       </main>
     </>
   );

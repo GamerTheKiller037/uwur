@@ -63,7 +63,7 @@ const Navbar = () => {
             </Nav.Link>
 
             <Nav.Item className="contact">
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/Contacto">
                 Contacto
               </Nav.Link>
             </Nav.Item>

@@ -11,8 +11,9 @@
   &__content {
     p {
       text-align: justify;
-      font-size: 1rem;
+      font-size: 1.1rem;
       line-height: 1.6;
+      font-weight: 500;
     }
 
     h4 {
@@ -83,7 +84,7 @@
             padding: 1rem;
             margin-top: 1rem;
             font-weight: 600;
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             transition: background-color 0.3s ease;
 
             &:hover {

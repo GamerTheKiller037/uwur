@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import HeroSecondary from "../../components/HeroSecondary/HeroSecondary";
 import CourseDetail from "../../components/CourseDetail/CourseDetail";
+import Footer from "../../components/Footer/Footer";
 
 const Curso = () => {
   return (
@@ -25,6 +26,7 @@ const Curso = () => {
             "Acceso a plataforma virtual",
           ]}
         />
+        <Footer />
       </main>
     </>
   );

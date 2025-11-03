@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import HeroSecondary from "../../components/HeroSecondary/HeroSecondary";
 import DirectoryFiles from "../../components/DirectoryFiles/DirectoryFiles";
+import Footer from "../../components/Footer/Footer";
 
 const Normatividad = () => {
   const directoryItems = [
@@ -28,6 +29,7 @@ const Normatividad = () => {
       <main>
         <HeroSecondary title="Normatividad" />
         <DirectoryFiles items={directoryItems} />
+        <Footer />
       </main>
     </>
   );

@@ -1,6 +1,125 @@
 .footer {
   background-color: #0a2c6a;
+  color: white;
+  position: relative;
+  overflow: hidden;
+
+  &__main {
+    position: relative;
+    .container {
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  &__brand {
+    max-width: 300px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+  }
+
+  &__logo-wrapper {
+    background-color: white;
+    padding: 1.2rem 1.5rem;
+    border-bottom: 7px solid #741816;
+    margin-bottom: 1.5rem;
+  }
+
+  &__logo {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &__description {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  &__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: white;
+  }
+
+  &__nav {
+    .nav-link {
+      color: rgba(255, 255, 255, 0.85);
+      padding: 0.4rem 0;
+      font-size: 0.95rem;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: white;
+      }
+    }
+  }
+
+  &__contact {
+    font-size: 0.95rem;
+  }
+
+  &__link {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: color 0.3s ease;
+
+    &:hover {
+      color: white;
+      text-decoration: underline;
+    }
+  }
+
+  &__social-link {
+    display: inline-block;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+    img {
+      width: 32px;
+      height: 32px;
+    }
+
+    &:hover {
+      transform: translateY(-3px);
+      opacity: 0.8;
+    }
+  }
+
+  &__figure {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 200px;
+    opacity: 0.3;
+    pointer-events: none;
+    z-index: 0;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      max-width: 120px;
+    }
+  }
+
   &__bottom {
     background-color: #00467d;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    position: relative;
+    z-index: 1;
+  }
+
+  &__copyright,
+  &__credits {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  &__credits {
+    margin-top: 0.25rem;
   }
 }

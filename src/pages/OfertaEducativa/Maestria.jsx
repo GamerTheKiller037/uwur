@@ -8,6 +8,7 @@ import checkIcon from "../../assets/img/check-icon--red.svg";
 import chatBlue from "../../assets/img/chat--blue.svg";
 import fileIcon from "../../assets/img/file.svg";
 import "../../components/CourseDetail/CourseDetail.scss";
+import Footer from "../../components/Footer/Footer";
 
 const Maestria = () => {
   return (
@@ -138,6 +139,7 @@ const Maestria = () => {
             </div>
           </div>
         </section>
+        <Footer />
       </main>
     </>
   );

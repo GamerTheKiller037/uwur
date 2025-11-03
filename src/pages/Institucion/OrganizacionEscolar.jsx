@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../../components/Header/Header";
 import HeroSecondary from "../../components/HeroSecondary/HeroSecondary";
 import Team from "../../components/Team/Team";
+import Footer from "../../components/Footer/Footer";
 
 const OrganizacionEscolar = () => {
   const subManagers = [
@@ -38,6 +39,7 @@ const OrganizacionEscolar = () => {
           }}
           subManagers={subManagers}
         />
+        <Footer />
       </main>
     </>
   );

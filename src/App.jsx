@@ -12,6 +12,7 @@ import Cursos from "./pages/OfertaEducativa/Cursos";
 import Curso from "./pages/OfertaEducativa/Curso";
 import Eventos from "./pages/VidaInstitucional/Eventos";
 import Publicaciones from "./pages/VidaInstitucional/Publicaciones";
+import Contacto from "./pages/Contacto";
 
 const App = () => {
   return (
@@ -26,6 +27,7 @@ const App = () => {
       <Route path="/curso/:id" element={<Curso />} />
       <Route path="/eventos" element={<Eventos />} />
       <Route path="/publicaciones" element={<Publicaciones />} />
+      <Route path="/Contacto" element={<Contacto />} />
     </Routes>
   );
 };

@@ -3,6 +3,7 @@ import Header from "../../components/Header/Header";
 import HeroSecondary from "../../components/HeroSecondary/HeroSecondary";
 import CourseList from "../../components/CourseList/CourseList";
 import CoursePresentation from "../../components/CoursePresentation/CoursePresentation";
+import Footer from "../../components/Footer/Footer";
 
 const Cursos = () => {
   return (
@@ -16,6 +17,7 @@ const Cursos = () => {
         />
         <CourseList />
         <CoursePresentation />
+        <Footer />
       </main>
     </>
   );
